@@ -7,7 +7,7 @@
   <title>Experience — Laith Shatnawi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,69 +33,97 @@
     <header class="page-header reveal">
       <p class="eyebrow">Work history</p>
       <h1>Experience</h1>
-      <p class="lead">Six years bridging plan, design, and manufacturing — from academic research to production lines serving millions of units annually.</p>
+      <p class="lead">From academic research to million-unit manufacturing — condition monitoring, quality systems, and production-line design.</p>
     </header>
 
-    <div class="timeline">
-      <article class="timeline-item reveal">
+    <article class="exp-block reveal" id="aalen">
+      <div class="exp-block__media">
+        <img src="images/role-rd.jpg" alt="Automated laboratory instrumentation for multi-sensor testing" width="1400" height="788" loading="lazy">
+      </div>
+      <div class="exp-block__content">
         <div class="timeline-header">
-          <h2>R&amp;D Engineer</h2>
+          <h2>R&amp;D Engineer <span class="title-alt">/ Graduate Research Assistant</span></h2>
           <span class="timeline-date">Oct 2024 – Present</span>
         </div>
-        <p class="timeline-location">Hochschule Aalen, Germany</p>
+        <p class="timeline-location">Hochschule Aalen · Aalen University, Germany</p>
+        <p class="exp-intro">Multi-sensor condition monitoring and predictive maintenance for lubricants in industrial gearbox and hydraulic systems.</p>
         <ul>
-          <li>Design test benches for experimental setups, optimizing data collection and ensuring accuracy of research outcomes</li>
-          <li>Contribute to prototype development, testing, validation, and continuous improvement of products and engineering processes</li>
-          <li>Build computational models and analyze data to support technical decision-making and optimize system performance</li>
-          <li>Submit funding proposals (tenders) and secure €1.3M+ in research funding to support key R&amp;D initiatives</li>
-          <li>Guide junior team members in experimental design, data analysis, and test bench operations</li>
+          <li>Built and instrumented experimental setups combining sensor channels for viscosity, particle contamination, and optical transmission/scattering over time</li>
+          <li>Developed machine-learning models to fuse sensor channels and estimate Remaining Useful Life (RUL)</li>
+          <li>Built ANN and CNN virtual sensors in Python that predict fluid properties from low-cost multi-sensor inputs; CNN outperformed LSTM and was selected as the primary model</li>
+          <li>Structured decision frameworks incorporating economic cost modeling</li>
+          <li>Authored and contributed to competitive research funding proposals with industrial partners</li>
+          <li>Supervise Bachelor’s and Master’s thesis projects; contributed to 5 papers as first author and co-author</li>
         </ul>
-      </article>
+      </div>
+    </article>
 
-      <article class="timeline-item reveal">
+    <article class="exp-block reveal" id="nask">
+      <div class="exp-block__media">
+        <img src="images/role-brakes.jpg" alt="Precision automotive mechanical test assembly" width="1400" height="866" loading="lazy">
+      </div>
+      <div class="exp-block__content">
         <div class="timeline-header">
           <h2>Lab &amp; Quality Engineer</h2>
           <span class="timeline-date">Sep 2022 – Aug 2024</span>
         </div>
         <p class="timeline-location">NASK Brakes Industries, Qatar</p>
+        <p class="exp-intro">Engineering and quality for brake pad manufacturing at a facility producing 1,000,000 pads annually.</p>
         <ul>
-          <li>Design and develop brake products for various models according to OEM requirements and specifications</li>
-          <li>Design fixtures and components for performance testing in brake manufacturing, supporting 1,000,000 brake pads annually</li>
-          <li>Install testing machines and apparatuses, ensuring calibration and compliance with standards</li>
-          <li>Ensure ISO and SASO compliance by preparing documentation for audits</li>
+          <li>Designed and validated product specifications for brake models against OEM requirements</li>
+          <li>Designed test fixtures and experimental apparatus for brake component performance evaluation</li>
+          <li>Installed and calibrated testing machines for accuracy and repeatability across test cycles</li>
+          <li>Prepared technical documentation for ISO and SASO compliance audits with full traceability</li>
+          <li>Identified non-conformances and material defects early to prevent costly rework</li>
+          <li>Maintained logs of test results, calibration certificates, and inspection reports</li>
+          <li>Supervised quality technicians during measurement, evaluation, and documentation</li>
         </ul>
-      </article>
+      </div>
+    </article>
 
-      <article class="timeline-item reveal">
+    <article class="exp-block reveal" id="memco">
+      <div class="exp-block__media">
+        <img src="images/role-production.jpg" alt="Industrial production hall for manufacturing line design" width="1400" height="953" loading="lazy">
+      </div>
+      <div class="exp-block__content">
         <div class="timeline-header">
           <h2>Mechanical Design Engineer</h2>
           <span class="timeline-date">Nov 2021 – Sep 2022</span>
         </div>
         <p class="timeline-location">MEMCO, Saudi Arabia</p>
+        <p class="exp-intro">CAD/CAE design of industrial production lines for higher throughput.</p>
         <ul>
-          <li>Utilize CAD/CAE software to create 3D models and 2D drawings for new production lines</li>
-          <li>Design production lines for higher throughput — improving material flow with spiral conveyors and palletizers (50,000–81,000 bottles/hour)</li>
-          <li>Conduct virtual tests and simulations, then create BOMs, technical reports, and specification documents</li>
-          <li>Prepare costing sheets for new designs and projects</li>
+          <li>Built 3D models and 2D drawings for new production line designs with supporting calculations</li>
+          <li>Integrated spiral conveyors and palletizers — line capacities of 50,000 and 81,000 bottles/hour</li>
+          <li>Ran simulations to validate mechanical and material-flow behavior before finalizing layouts</li>
+          <li>Documented BOMs, technical reports, and costing analyses for feasibility decisions</li>
+          <li>Executed Installation, Operational, and Performance Qualification for equipment</li>
+          <li>Troubleshot hardware and software anomalies across lab instrumentation and local networks</li>
         </ul>
-      </article>
+      </div>
+    </article>
 
-      <article class="timeline-item reveal">
+    <article class="exp-block reveal" id="just">
+      <div class="exp-block__media">
+        <img src="images/role-research.jpg" alt="Laboratory fluid analysis and experimental research work" width="1400" height="933" loading="lazy">
+      </div>
+      <div class="exp-block__content">
         <div class="timeline-header">
           <h2>Research Assistant</h2>
           <span class="timeline-date">Mar 2018 – Jun 2019</span>
         </div>
         <p class="timeline-location">JUST University, Jordan</p>
+        <p class="exp-intro">Automotive engineering and fuzzy logic control — from literature review to published journal paper.</p>
         <ul>
-          <li>Conduct literature reviews and research in automotive and fuzzy logic fields</li>
-          <li>Build and implement computational models using MATLAB &amp; Simulink</li>
-          <li>Prepare research proposals and papers for international peer-reviewed journals</li>
-          <li>Published results in an international journal in the field of research</li>
+          <li>Conducted structured literature reviews to define project scope and direction</li>
+          <li>Built computational models in MATLAB and Simulink for a fuzzy logic-based control system</li>
+          <li>Collected, cleaned, and organized quantitative and qualitative experimental data</li>
+          <li>Prepared research proposals and papers; results published in an international peer-reviewed journal</li>
         </ul>
-      </article>
-    </div>
+      </div>
+    </article>
 
-    <section class="section reveal" style="margin-top: var(--space-2xl);">
+    <section class="section reveal" style="margin-top: var(--space-xl);">
       <div class="section-title">
         <span class="index">EDU</span>
         <h2>Education</h2>
@@ -105,7 +133,7 @@
           <p class="card-meta">M.Sc. · 2019</p>
           <h3>Mechanical Engineering — Production</h3>
           <p>University of Debrecen, Hungary</p>
-          <p style="margin-top: var(--space-sm); font-size: 0.9rem;">Thesis: Performance Enhancement of a Hybrid Thermoelectric Generator (TEG) and PV System. Research: Generative Design of Articulated Rod of Radial Engine.</p>
+          <p style="margin-top: var(--space-sm); font-size: 0.9rem;">Thesis: Performance Enhancement of a Hybrid Thermoelectric Generator (TEG) and PV System. Research: Generative Design of Articulated Rod of Radial Engine. Awarded the Hungaricum Stipendium scholarship.</p>
         </article>
         <article class="card">
           <p class="card-meta">B.Sc. · 2015</p>

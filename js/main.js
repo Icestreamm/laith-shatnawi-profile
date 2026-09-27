@@ -20,18 +20,18 @@
 
   if (!prefersReducedMotion) {
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver(
+    const revealObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
+            revealObserver.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.1, rootMargin: '0px 0px -32px 0px' }
     );
-    reveals.forEach((el) => observer.observe(el));
+    reveals.forEach((el) => revealObserver.observe(el));
   } else {
     document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
   }
